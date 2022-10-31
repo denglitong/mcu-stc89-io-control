@@ -1,10 +1,10 @@
 #include <reg52.h>
 
 // define control singtal for LED and BUZZER
-#define TURN_ON_LED 1
-#define TURN_OFF_LED 2
-#define TURN_ON_BUZZER 3
-#define TURN_OFF_BUZZER 4
+#define TURN_ON_LED 0x01
+#define TURN_OFF_LED 0x02
+#define TURN_ON_BUZZER 0x03
+#define TURN_OFF_BUZZER 0x04
 
 unsigned char RECEIVED_SIGNAL = 0;
 
